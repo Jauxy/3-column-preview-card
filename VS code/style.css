@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.column-preview {
+    display: flex;
+}
+/* text styling */
+h1 {
+    margin: 2rem 0;
+    font-family: Big Shoulders Display, sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+p {
+  
+   font-family: Lexend Deca, sans-serif;
+   color: white;
+   line-height: 2;
+
+   /* font-size: x-small; */
+
+   
+}
+/* box styling */
+.sedans-box {
+    background: hsl(31, 77%, 52%);
+    padding: 2rem 3.5rem;
+    border-bottom-left-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+    
+}
+
+.suvs-box {
+    background: hsl(184, 100%, 22%);
+    padding: 2rem 3rem;
+}
+
+.luxury-box {
+    background: hsl(179, 100%, 13%);
+    padding: 2rem 3rem;
+    border-bottom-right-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+}
+/* buttons styling */
+.btn-sedans {
+   padding: 1rem 2rem;
+   margin-top: 6rem;
+   border-radius: 2rem;
+   border: 1px;
+   color: hsl(31, 77%, 52%);
+   font-family: Lexend Deca, sans-serif;
+}
+/* sedans hover style */
+.btn-sedans:hover {
+    background:hsl(31, 77%, 52%);
+    color: white;
+    border: 3px solid white;
+}
+
+.btn-suv {
+    padding: 1rem 2rem;
+    margin-top: 6rem;
+    border-radius: 2rem;
+    border: 1px;
+    color: hsl(184, 100%, 22%);
+    font-family: Lexend Deca, sans-serif;
+ }
+ /* suv hover style */
+.btn-suv:hover {
+    background:hsl(184, 100%, 22%);
+    color: white;
+    border: 3px solid white;
+}
+
+ .btn-luxury {
+    padding: 1rem 2rem;
+    margin-top: 6rem;
+    border-radius: 2rem;
+    border: 1px;
+    color: hsl(179, 100%, 13%);
+    font-family: Lexend Deca, sans-serif;
+ }
+.btn-luxury:hover {
+    background:hsl(179, 100%, 13%);
+    color: white;
+    border: 3px solid white;
+}
+
+/* Responsiveness media queries */
+@media only screen and (max-width: 600px) {
+    .column-preview{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0;
+        
+    }
+
+    .sedans-box {
+        border-top-left-radius: 5px;
+
+    }
+
+}
+
+
