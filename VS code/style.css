@@ -51,7 +51,7 @@ p {
 
 .luxury-box {
     background: hsl(179, 100%, 13%);
-    padding: 2rem 3rem;
+    padding: 2rem 2.95rem;
     border-bottom-right-radius: 0.7rem;
     border-top-right-radius: 0.7rem;
 }
@@ -105,15 +105,19 @@ p {
     .column-preview{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        padding: 2rem 0;
-        
+        width: 200%;
+        height: 95vh;
+        margin: 0.1rem 1.8rem; 
     }
 
     .sedans-box {
-        border-top-left-radius: 5px;
+        border-top-right-radius: 0.7rem;
+        border-bottom-left-radius: 0rem;
+    }
 
+    .luxury-box {
+        border-top-right-radius: 0rem;
+        border-bottom-left-radius: 0.7rem;
     }
 
 }
